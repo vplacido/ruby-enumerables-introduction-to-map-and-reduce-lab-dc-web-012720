@@ -16,6 +16,8 @@ def map_to_double(source_array)
     newArr << item * 2 
   end 
   newArr
+  
+  source_array.map {
 end
 
 def map_to_square(source_array)
