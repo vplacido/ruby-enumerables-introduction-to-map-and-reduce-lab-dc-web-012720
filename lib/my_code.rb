@@ -26,7 +26,7 @@ def map_to_square(source_array)
   newArr
 end
 
-def reduce_to_total(source_array, starting_point)
+def reduce_to_total(source_array, starting_point=0)
   if !starting_point 
     return source_array.reduce(0,:+)
   else 
