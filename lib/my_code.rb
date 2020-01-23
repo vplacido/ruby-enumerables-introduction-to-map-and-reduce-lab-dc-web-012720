@@ -27,11 +27,11 @@ def map_to_square(source_array)
 end
 
 def reduce_to_total(source_array)
-  source_array.reduce(:+)
+  
 end
 
 def reduce_to_total(source_array, starting_point)
   if starting_point == nil 
-    return
+    returnsource_array.reduce(:+)
   source_array.reduce(starting_point, :+)
 end 
